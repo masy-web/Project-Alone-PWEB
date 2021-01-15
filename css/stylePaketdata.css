@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to left, rgb(9, 173, 9), rgb(44, 233, 44));
+}
+body{
+    background-image: url(../image/backg.png);
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+.logo{
+    width: 100px;
+    height: 60px;
+
+    float: left;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 80%;
+    margin: 0 60px;
+}
+.menu ul#container{
+    
+    float: left;
+
+}
+.menu ul#side{
+    
+    float: right;
+    margin-right: 120px;
+    margin-top: 30px;
+}
+header ul li{
+    display: inline-block;
+}
+ul#container li a{
+    padding: 30px 20px;
+    display: inline-block;
+    margin-left: 30px;
+    color: #fff;
+}
+ul#side li a{
+    margin-left: 20px;
+    font-size: 14pt;
+    color: #fff;
+}
+ul#container li a:hover{
+    text-decoration: underline;
+}
+ul#side li a:hover{
+    color: black;
+    
+}
+.active{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+.content{
+    width: 100%;
+    height: 565px;
+    background-color:rgb(255, 255, 255,0.5) ;
+}
+
+.footer{
+    border: 0.4px solid;
+    border-color: gray;
+    width: 100%;
+    height: 80px;
+    padding: 30px;
+    background-color: #fff;
+}
+.foot li {
+    color: black;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 10px ;
+}
+.foot li a{
+    opacity: 0.7;
+}
+.foot{
+    width: 80%;
+    margin: 0 auto;
+}
+.foot :hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.macam{
+    
+    padding: 80px;
+    margin-left: 100px;
+
+}
+
+.pertukaran{
+    margin-left: 100px;
+    padding: 12px;
+    font-weight: bold;
+    border: 1px solid;
+    width: 100px;
+    height: 15px;
+    background-color: honeydew;
+    border-color: rgb(44, 233, 44);
+    border-radius: 10pt;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.pilTransaksi{
+    
+    padding: 20px;
+    margin-left: 230px;
+
+}
+.pilTransaksi .transaksi{
+    width: 100px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box ;
+    border: 1px solid;
+    float: left;
+    margin: 0 50px;
+    background-color: #fff;
+    border-color: rgb(44, 233, 44);
+    border-radius: 15%;
+}
+
+img{
+    width: 100%;
+
+}
+img#gopay{
+      
+    margin:auto;
+    display: block;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+    border-color: gray;
+    margin: 0 auto;
+    font-size: 40pt;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 15%;
+    color:rgb(44, 233, 44) ;
+    background-color: honeydew;
+}
+h5{
+    margin: 15px auto;
+    text-align: center;
+}
+
+
+.sama{
+    margin-bottom: 23px;
+}
